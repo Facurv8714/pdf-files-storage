@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "Familia Robinson",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -29,5 +29,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://dazzling-kitten-8e27ab.netlify.app"
+  "homepage": "https://familiarobinson.netlify.app"
 }
