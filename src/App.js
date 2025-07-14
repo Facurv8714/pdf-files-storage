@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./styles.css";
 
@@ -9,6 +9,11 @@ import Reports from "./pages/Reports";
 import Guides from "./pages/Guides";
 
 function App() {
+  
+  useEffect(() => {
+    document.title = 'Familia Robinson';
+  }, []);
+  
   return (
     <Router>
       <div className="App">
